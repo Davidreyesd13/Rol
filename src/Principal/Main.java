@@ -31,9 +31,9 @@ public class Main extends javax.swing.JFrame {
         Panel_rol = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        B_generar = new javax.swing.JButton();
+        B_Salir = new javax.swing.JButton();
+        B_cargar = new javax.swing.JButton();
         Panel_login = new javax.swing.JPanel();
         B_login = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -54,11 +54,11 @@ public class Main extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jButton1.setText("Generar Rol");
+        B_generar.setText("Generar Rol");
 
-        jButton2.setText("Salir");
+        B_Salir.setText("Salir");
 
-        jButton3.setText("Cargar Rol");
+        B_cargar.setText("Cargar Rol");
 
         javax.swing.GroupLayout Panel_rolLayout = new javax.swing.GroupLayout(Panel_rol);
         Panel_rol.setLayout(Panel_rolLayout);
@@ -69,11 +69,11 @@ public class Main extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(Panel_rolLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(B_cargar, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(64, 64, 64)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(B_generar, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(72, 72, 72)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(B_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(141, 141, 141))
         );
         Panel_rolLayout.setVerticalGroup(
@@ -82,9 +82,9 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
                 .addGroup(Panel_rolLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(B_generar)
+                    .addComponent(B_Salir)
+                    .addComponent(B_cargar))
                 .addGap(28, 28, 28))
         );
 
@@ -188,13 +188,13 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton B_Salir;
+    private javax.swing.JButton B_cargar;
+    private javax.swing.JButton B_generar;
     private javax.swing.JButton B_login;
     private javax.swing.JFrame Frame_Rol;
     private javax.swing.JPanel Panel_login;
     private javax.swing.JPanel Panel_rol;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
